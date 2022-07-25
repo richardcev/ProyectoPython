@@ -19,9 +19,13 @@ def ejecutarOpcion(numOpcion):
         print(funciones.leerArchivoTxt())
     elif numOpcion=='2':
         funciones.llenarListas()
+    elif numOpcion=='3':
+        funciones.mostrarRutaArchivo()
+    elif numOpcion=='4':
+        funciones.cambiarRutaArchivo()
 
 
-#Ejecicion del programa
+#Ejecucion del programa
 menu()
 
 
